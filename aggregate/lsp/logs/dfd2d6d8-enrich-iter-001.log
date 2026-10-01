@@ -1,0 +1,24 @@
+[2026-10-01T08:04:41Z] === ENRICH ITERATION 1 START | repo=block/canopy sha=dfd2d6d8 ===
+[2026-10-01T08:04:41Z] [iter=1] PHASE START: enrich repo=block/canopy sha=dfd2d6d8 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/dfd2d6d8-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/dfd2d6d8131745d3358255d3e3e794b34e0eb67b.nq.gz
+[2026-10-01T08:05:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-10-01T08:05:07Z] [iter=1] AST store loaded triples=931563 load_secs=6 mem_mb=828 MB
+[2026-10-01T08:05:07Z] [iter=1] Step 2: Finding LSP targets mem_mb=828 MB
+[2026-10-01T08:05:08Z] [iter=1] LSP targets found call_sites=6472 imports=95 extends=0 implements=0 secs=1
+[2026-10-01T08:05:08Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=828 MB
+[2026-10-01T08:05:12Z] [iter=1] Position index built positions=63392 nodes_with_types=74451 secs=4 mem_mb=828 MB
+[2026-10-01T08:05:12Z] [iter=1] Step 3: Starting LSP resolution mem_mb=828 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:05:12Z] [iter=1] Resolving target type target_type=call_site count=6472
+[2026-10-01T08:05:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=components/DiffViewer.tsx
+[2026-10-01T08:06:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=2 resolved=87 errors=207 current=lib/github.ts
+[2026-10-01T08:07:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=5 resolved=271 errors=298 current=_archive/app/api/branches/route.ts
+[2026-10-01T08:07:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=9 resolved=328 errors=378 current=components/BranchMapView.tsx
+[2026-10-01T08:24:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=24 resolved=1014 errors=2849 current=src-tauri/src/lib.rs
+[2026-10-01T08:25:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=25 resolved=1613 errors=2893 current=src-tauri/src/git/branches.rs
+[2026-10-01T08:25:46Z] [iter=1] Target type resolved target_type=call_site resolved=1774 errors=2917 secs=1234 mem_mb=828 MB
+[2026-10-01T08:25:46Z] [iter=1] Resolving target type target_type=import_statement count=95
+[2026-10-01T08:26:16Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=21.6 files_done=25 resolved=19 errors=0 current=src-tauri/src/github.rs
+[2026-10-01T08:26:46Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=22.1 files_done=26 resolved=22 errors=0 current=src-tauri/src/lib.rs
+[2026-10-01T08:27:00Z] [iter=1] Target type resolved target_type=import_statement resolved=35 errors=0 secs=73 mem_mb=828 MB
+[2026-10-01T08:28:20Z] [iter=1] Step 5: Writing final enrichment file triples=61350
+[2026-10-01T08:28:21Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/dfd2d6d8131745d3358255d3e3e794b34e0eb67b.nq.gz size_kb=1005
+[2026-10-01T08:28:21Z] [iter=1] PHASE END: enrich elapsed_s=1419 elapsed_min=23.7 total_triples=61350
