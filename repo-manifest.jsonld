@@ -1,0 +1,15 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/canopy",
+  "@type": "gh:Repository",
+  "gh:name": "canopy",
+  "gh:owner": "block",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/block/canopy/commit/dfd2d6d8131745d3358255d3e3e794b34e0eb67b",
+      "git:hexsha": "dfd2d6d8131745d3358255d3e3e794b34e0eb67b",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "main"
+    }
+  ]
+}
