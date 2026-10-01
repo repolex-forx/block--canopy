@@ -47,7 +47,7 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/dfd2d6d8131745d3358255d3e3e794b34e0eb67b/chunk-001.nq.gz",
-      "repolex:graphFileSize": 13455196
+      "repolex:graphFileSize": 13450343
     }
   ],
   "repolex:parseStatus": "ast_complete",
