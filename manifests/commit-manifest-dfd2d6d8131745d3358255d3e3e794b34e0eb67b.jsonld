@@ -51,12 +51,6 @@
     },
     {
       "@type": "repolex:GraphFile",
-      "repolex:graphType": "ast",
-      "repolex:graphFilePath": "aggregate/ast/dfd2d6d8131745d3358255d3e3e794b34e0eb67b/chunk-001.nq.gz",
-      "repolex:graphFileSize": 13450343
-    },
-    {
-      "@type": "repolex:GraphFile",
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/dfd2d6d8131745d3358255d3e3e794b34e0eb67b.nq.gz",
       "repolex:graphFileSize": 1029468
@@ -66,9 +60,15 @@
       "repolex:graphType": "dep",
       "repolex:graphFilePath": "dep/dfd2d6d8131745d3358255d3e3e794b34e0eb67b.nq.gz",
       "repolex:graphFileSize": 2131
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/dfd2d6d8131745d3358255d3e3e794b34e0eb67b/chunk-001.nq.gz",
+      "repolex:graphFileSize": 13450343
     }
   ],
-  "repolex:parseStatus": "metadata_complete",
+  "repolex:parseStatus": "ast_complete",
   "repolex:parsedAt": "2026-10-02T10:50:36.819288+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "main",
